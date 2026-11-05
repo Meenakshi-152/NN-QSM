@@ -72,11 +72,10 @@ scripts/ – Contains the training and testing scripts, organized according to t
 NN-QSM has been evaluated using QSM datasets acquired under different imaging conditions, including:
 
 - [**SNU dataset:**](https://www.sciencedirect.com/science/article/pii/S1053811918305378?casa_token=Jr0x7xqv42cAAAAA:qkoOZpnzV1LIEriiQz0t7bnT44aAhU7vzvl0eovC13WaPi5LNqKYl34lMs2wNtC1ayvAGcDd4A) Used for training, validation, and testing.
-- **LPCNN dataset:** Used to evaluate reconstruction performance on data acquired at different field strengths and head orientations.
-- **RC-1 dataset:** Used for additional evaluation on multi-orientation data.
-- **RC-2 dataset:** Used for evaluation on simulated data.
-- **Hemo dataset:**
-- **MS dataset:**
+- [**LPCNN dataset:**](https://link.springer.com/chapter/10.1007/978-3-030-59713-9_13) Used to evaluate reconstruction performance on data acquired at different field strengths and head orientations.
+- [**RC-1 dataset:**](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.26830?casa_token=LjhGtm4cBSgAAAAA%3Ar_7q51Uou4qovctyNS8PQvrPEIKRNxzYO_oIu4yuArSLiSCm38mjr5g2c0woxhFsG-29y0yV-Nfgis4) Used for additional evaluation on multi-orientation data.
+- [**RC-2 dataset:**](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28716) Used for evaluation on simulated data.
+- [**Hemo dataset and MS dataset:**](https://www.sciencedirect.com/science/article/pii/S1053811921006522)Clinical QSM data from patients with hemorrhage and multiple sclerosis, used to evaluate the reconstruction performance of NN-QSM in pathological conditions, including hemorrhagic abnormalities and demyelinating lesions.
 
 Additional experiments include limited-data training and evaluation on pathological cases, including hemorrhage and multiple sclerosis.
 
