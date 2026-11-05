@@ -24,18 +24,48 @@ The truncation depth controls the number of Neumann blocks used in the reconstru
 The repository will contain the following components as they are added:
 
 ```text
-NN-QSM/
-├── README.md
-├── requirements.txt
-├── models/          # Network architectures
-├── utils/           # Dipole operators and utility functions
-├── scripts/         # Training, testing, and evaluation
-├── configs/         # Experimental configurations
-├── data/            # Dataset instructions (not raw data)
-├── checkpoints/     # Pretrained model instructions
-└── figures/         # Method overview and results
-```
+The repository is organized as follows:
 
+NN-QSM/
+│
+├── checkpoints/
+│   ├── full_data/
+│   │   ├── fold1/
+│   │   ├── fold2/
+│   │   ├── fold3/
+│   │   └── fold4/
+│   │
+│   └── lim_data/
+│
+├── figures/
+│
+├── qsm_modules/
+│   ├── qsm_data_loader/
+│   ├── qsm_dw_models/
+│   └── qsm_loss_modules/
+│
+├── scripts/
+│   ├── full_data/
+│   │   ├── train_amp.py
+│   │   └── Neumann_QSM_test_new.py
+│   │
+│   └── lim_data/
+│       ├── train_amp_lim.py
+│       └── Neumann_QSM_test_new_lim.py
+│
+├── .gitignore
+├── requirements.txt
+└── README.md
+```
+# Directory Description
+
+checkpoints/ – Stores trained model checkpoints and experimental results. The full_data/ directory contains results from four-fold experiments, while lim_data/ contains results from limited-data experiments.
+
+figures/ – Contains figures and visualizations related to the network architecture and experimental results.
+
+qsm_modules/ – Contains the core implementation of NN-QSM, including data loaders, model architectures, and loss functions.
+
+scripts/ – Contains the training and testing scripts, organized according to the full-data and limited-data experimental settings.
 
 ## Dataset Preparation
 
