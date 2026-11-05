@@ -1,0 +1,25 @@
+# Python version: 3.12.4
+
+# Deep learning
+torch==2.5.1
+
+# Numerical computing
+numpy
+scipy
+
+# Data processing
+pandas
+h5py
+
+# Medical image processing
+nibabel
+
+# Image quality metrics
+scikit-image
+
+# Visualization
+matplotlib
+
+# Utilities
+tqdm
+Pillow
