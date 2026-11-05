@@ -71,7 +71,7 @@ scripts/ – Contains the training and testing scripts, organized according to t
 
 NN-QSM has been evaluated using QSM datasets acquired under different imaging conditions, including:
 
-- **SNU dataset:** Used for training, validation, and testing.
+- [**SNU dataset:**](https://www.sciencedirect.com/science/article/pii/S1053811918305378?casa_token=Jr0x7xqv42cAAAAA:qkoOZpnzV1LIEriiQz0t7bnT44aAhU7vzvl0eovC13WaPi5LNqKYl34lMs2wNtC1ayvAGcDd4A) Used for training, validation, and testing.
 - **LPCNN dataset:** Used to evaluate reconstruction performance on data acquired at different field strengths and head orientations.
 - **RC-1 dataset:** Used for additional evaluation on multi-orientation data.
 - **RC-2 dataset:** Used for evaluation on simulated data.
